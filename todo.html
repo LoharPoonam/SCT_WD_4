@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book-Themed To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="book">
+            <div class="page left-page">
+                <h2>Schedule Tasks</h2>
+                <form id="taskForm">
+                    <input type="text" id="taskInput" placeholder="Enter task here..." required>
+                    <input type="datetime-local" id="dateTime" required>
+                    <button type="submit">Add Task</button>
+                </form>
+            </div>
+            <div class="middle-line"></div>
+            <div class="page right-page">
+                <h2>To-Do List</h2>
+                <ul id="taskList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
